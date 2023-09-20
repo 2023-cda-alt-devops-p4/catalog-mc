@@ -26,7 +26,7 @@ export default {
   name: 'NavBar',
   
   components: {
-    //SearchBar
+    SearchBar
   },
 
   data: () => ({
@@ -34,3 +34,6 @@ export default {
   })
 }
 </script>
+
+<style>
+</style>
