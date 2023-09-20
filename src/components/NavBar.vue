@@ -20,3 +20,17 @@
     </div>
  </section>
 </template>
+
+<script>
+export default {
+  name: 'NavBar',
+  
+  components: {
+    //SearchBar
+  },
+
+  data: () => ({
+    active: true
+  })
+}
+</script>
