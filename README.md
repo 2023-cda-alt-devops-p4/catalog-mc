@@ -5,43 +5,49 @@
 For our first assignment for the CDA training with Simplon, we need to build a website that showcases all the UML and Merise diagrams.
 We must highlight the most important diagrams, making sure the website is responsive.
 
-# vue-project
+## Brief
 
-This template should help get you started developing with Vue 3 in Vite.
 
-## Recommended IDE Setup
+une ressource centralisée avec une vision d'ensemble de tous les diagrammes UML et de tous ceux qui appartiennent à la méthode MERISE. 
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Il me faut une méthode à suivre pour chacun de ces schémas, surtout pour les plus importants que j'aurai à créer très vite.
 
-## Type Support for `.vue` Imports in TS
+ce support doit être consultable en ligne aussi bien sur mobile que sur PC et tablette.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+### Structure
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+Vous devez produire votre "catalogue" avec :
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+une page d'accueil
+les diagrammes UML
+les diagrammes Merise
+la navigation principale
+​
 
-## Customize configuration
+Mettez en évidence les "diagrammes indispensables".
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+### Conception
 
-## Project Setup
+Vous devez :
 
-```sh
-npm install
-```
+avoir une version optimisée pour mobile en adoptant le concept Mobile First
+faire usage des media queries pour la version tablette et pc
+ajouter des animations, des popup, une version contrastée, etc. en vous aidant du CSS / JavaScript
+le mettre en ligne sur un service de déploiement au push, comme GitHub Pages / Netlify / Vercel
+​
 
-### Compile and Hot-Reload for Development
+### Livrables
 
-```sh
-npm run dev
-```
+- une archive ZIP de votre projet
+- un lien vers un dépôt GitHub comprenant le code source
+- un lien vers votre nouveau catalogue en ligne
 
-### Type-Check, Compile and Minify for Production
+### Critères de performance
 
-```sh
-npm run build
-```
+- Le projet doit être versionné régulièrement et de manière atomique (Plusieurs "commit" par jour pendant toute la durée du projet)
+- Le site web doit être en conformité avec les standards W3C
+- Le site web est fonctionnel (le maillage interne n'a pas de lien mort) 
+- Le site web est adaptable
+- Le site web est performant (bon résultat sur PageSpeed Insights)
+- Le site web doit être en ligne, et redéployé au push (Github Pages, Netlify, Vercel...)
+- Les bonnes principes de structuration sont respectées, y compris pour le web mobile
