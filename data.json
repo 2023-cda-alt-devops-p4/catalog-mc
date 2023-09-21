@@ -4,7 +4,9 @@
 
         "title": "test",
         "image": "#",
+        "important": true,
         "categorie": "test",
+        "resumé": "test",
         "description":"test"
     }
 ]
