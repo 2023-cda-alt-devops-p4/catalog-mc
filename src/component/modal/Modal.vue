@@ -8,6 +8,7 @@
 <template>
     <div class="modal-global-container">
 
+        <div class="modal-container"></div>
     </div>
 </template>
 
@@ -22,5 +23,16 @@
         width: 100%;
         z-index: 500;
         background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .modal-container {
+        width: 40%;
+        height: auto;
+        min-height: 400px;
+        background-color: #FFF;
+        border-radius: 10px;
     }
 </style>
