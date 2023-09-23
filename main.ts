@@ -9,7 +9,7 @@ import App from './App.vue';
 const app = createApp(App);
 
 const routes = RouteRecordRow[] = [
-    {path: '/', component: }
+    {path: '/', component: () => {} }
 ];
 
 const router = VueRouter.createRouter({
