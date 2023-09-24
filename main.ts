@@ -3,7 +3,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import type { RouteRecordRaw } from "vue-router";
 
 import './style.css'
-import App from './App.vue'
+import App from './App.vue';
 
 const app = createApp(App);
 
