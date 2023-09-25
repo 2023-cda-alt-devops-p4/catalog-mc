@@ -10,7 +10,7 @@ export default {
     const route = useRoute()
     const isActive = computed(() => route.path === props.to)
     return { isActive, collapsed }
-  }
+    }
 }
 </script>
 
