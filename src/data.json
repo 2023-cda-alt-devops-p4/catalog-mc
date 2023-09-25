@@ -79,8 +79,8 @@
             "title": "MCC : Modèle conceptuel de communication ",
             "image": "#",
             "important": true,
-            "resumé": "test",
-            "description":"test"
+            "resumé": "Une représentation abstraite des éléments, des interactions et des flux d'information au sein d'un système de communication ou d'échange d'informations. ",
+            "description":"Ce modèle vise à définir les principaux concepts et à clarifier la manière dont les informations circulent entre les entités du système, facilitant ainsi la compréhension des interactions essentielles au sein d'un environnement de communication, que ce soit dans les domaines des télécommunications, de l'informatique ou d'autres domaines liés à la transmission d'informations."
         },
         {
 
@@ -88,8 +88,8 @@
             "title": "MOC : Modele organisationnel de communication",
             "image": "#",
             "important": true,
-            "resumé": "test",
-            "description":"test"
+            "resumé": "Une représentation structurée des processus, des acteurs et des flux d'information au sein d'une organisation ou d'un système complexe.",
+            "description":"Il se concentre sur la manière dont les activités de communication sont organisées, coordonnées et gérées au sein de l'entité, en mettant en évidence les rôles, les responsabilités, les canaux de communication, et les protocoles. Ce modèle vise à clarifier les relations et les interactions entre les différentes parties prenantes et à assurer une gestion efficace de la communication interne et externe au sein de l'organisation."
         },
         {
 
