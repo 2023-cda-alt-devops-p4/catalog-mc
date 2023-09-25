@@ -43,8 +43,8 @@
             "title": "MCT : Modèle conceptuel des traitements",
             "image": "#",
             "important": true,
-            "resumé": "test",
-            "description":"test"
+            "resumé": "Le MCT est une représentation abstraite des processus, des opérations et des flux d'informations.",
+            "description":"Ce modèle définit comment les données sont traitées, transformées et acheminées à travers un système, offrant ainsi une vue conceptuelle qui facilite la compréhension des fonctionnalités essentielles d'un système sans se préoccuper de la manière dont elles sont exécutées techniquement."
         },
         {
 
