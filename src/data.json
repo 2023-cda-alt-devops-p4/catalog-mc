@@ -112,5 +112,203 @@
     ],
     "uml": [
         
+        {
+
+            "id": 12,
+            "title": "Diagramme de cas d'utilisation (Use Case Diagram)",
+            "image": "#",
+            "important": true,
+            "resumé": "Montre les interactions entre les utilisateurs et les cas d'utilisation d'un système.",
+            "description":"Il représente les interactions entre les acteurs (utilisateurs ou autres systèmes) et les fonctionnalités d'un système. Cela aide à comprendre comment le système est utilisé."
+        },
+        {
+
+            "id": 13,
+            "title": "Diagramme de classes (Class Diagram)",
+            "image": "#",
+            "important": true,
+            "resumé": "Représente la structure statique d'un système en montrant les classes, les attributs, les opérations et les relations entre les classes",
+            "description":"Ce diagramme montre les principales classes d'un système logiciel, leurs attributs, leurs méthodes, et comment elles sont reliées entre elles. Il capture la structure statique du système."
+        },
+        {
+
+            "id": 14,
+            "title": "Diagramme d'objets (Object Diagram)",
+            "image": "#",
+            "important": false,
+            "resumé": "Représenter une instance particulière d'une classe avec ses attributs et ses relations.",
+            "description":"Il représente une instance particulière d'une classe avec ses attributs et ses relations à un moment donné, aidant à illustrer des exemples spécifiques."
+        },
+        {
+
+            "id": 15,
+            "title": "Diagramme de séquence (Sequence Diagram)",
+            "image": "#",
+            "important": true,
+            "resumé": "Montre la séquence d'interactions entre les objets du système au fil du temps.",
+            "description":"Il illustre comment les objets du système interagissent au fil du temps, en montrant la séquence des messages échangés entre les objets. Utile pour modéliser des scénarios d'utilisation"
+        },
+        {
+
+            "id": 16,
+            "title": "Diagramme de collaboration (Collaboration Diagram)",
+            "image": "#",
+            "important": false,
+            "resumé": " Similaire au diagramme de séquence, mais il met davantage l'accent sur les interactions entre les objets.",
+            "description":"Il est principalement axé sur la compréhension des besoins en termes d informations, des relations entre les données et de la logique sous-jacente, sans se préoccuper des détails d'implémentation, tels que les types de bases de données ou la structure physique. Une fois le MCD établi, il sert de base pour créer le modèle logique de données (MLD), qui définit comment les données seront stockées dans une base de données relationnelle ou autre."
+        },
+        {
+
+            "id": 17,
+            "title": "Diagramme d'états-transitions (Statechart Diagram)",
+            "image": "#",
+            "important": false,
+            "resumé": " Modélise le comportement d'un objet en montrant les différents états et les transitions entre ces états.",
+            "description":"Il est principalement axé sur la compréhension des besoins en termes d informations, des relations entre les données et de la logique sous-jacente, sans se préoccuper des détails d'implémentation, tels que les types de bases de données ou la structure physique. Une fois le MCD établi, il sert de base pour créer le modèle logique de données (MLD), qui définit comment les données seront stockées dans une base de données relationnelle ou autre."
+        },
+        {
+
+            "id": 18,
+            "title": "Diagramme d'activité (Activity Diagram)",
+            "image": "#",
+            "important": true,
+            "resumé": " Représente le flux de contrôle entre les activités ou les processus du système.",
+            "description":"Il décrit le flux de contrôle entre les activités ou les processus dans un système. C'est utile pour modéliser des flux de travail ou des algorithmes."
+        },
+        {
+
+            "id": 19,
+            "title": "Diagramme de composants (Component Diagram)",
+            "image": "#",
+            "important": true,
+            "resumé": "Montre les composants physiques d'un système logiciel, leurs interfaces et leurs dépendances.",
+            "description":"Il montre les composants logiciels et comment ils sont liés les uns aux autres. Utile pour comprendre la structure des logiciels modulaires.."
+        },
+        {
+
+            "id": 20,
+            "title": "Diagramme de déploiement (Deployment Diagram)",
+            "image": "#",
+            "important": true,
+            "resumé": "Représente la configuration matérielle d'un système, montrant les nœuds et les connexions réseau.",
+            "description":"Il représente la configuration matérielle d'un système, en montrant les nœuds matériels (comme des serveurs) et comment les composants logiciels sont déployés sur eux."
+        },
+        {
+
+            "id": 21,
+            "title": "Diagramme de paquetage (Package Diagram)",
+            "image": "#",
+            "important": false,
+            "resumé": " Organise les éléments du modèle UML en paquets pour faciliter la gestion.",
+            "description":"Il organise les éléments du modèle en paquets logiques pour simplifier la gestion et la compréhension du modèle."
+        },
+        {
+
+            "id": 22,
+            "title": "Diagramme de temps (Timing Diagram)",
+            "image": "#",
+            "important": false,
+            "resumé": "Montre la manière dont les objets interagissent sur une échelle de temps.",
+            "description":" Il montre comment les objets interagissent sur une échelle de temps, en particulier pour des systèmes temps réel."
+        },
+        {
+
+            "id": 23,
+            "title": "Diagramme de communication (Communication Diagram)",
+            "image": "#",
+            "important": false,
+            "resumé": "Montre les interactions entre les objets sous forme de messages.",
+            "description":" Il met en évidence les interactions entre les objets sous forme de messages, sans se concentrer autant sur la séquence temporelle que le diagramme de séquence."
+        },
+        
+        {
+
+            "id": 24,
+            "title": "Diagramme d'objet de déploiement (Instance Specification Diagram)",
+            "image": "#",
+            "important": false,
+            "resumé": "Utilisé pour montrer des exemples spécifiques d'objets de déploiement dans un diagramme de déploiement.",
+            "description":"Il est utilisé pour représenter des exemples spécifiques d'objets de déploiement dans un diagramme de déploiement."
+        },
+        
+        {
+
+            "id": 25,
+            "title": "Diagramme de temps (Timing Diagram)",
+            "image": "#",
+            "important": false,
+            "resumé": "Montre la manière dont les objets interagissent sur une échelle de temps.",
+            "description":"Il est principalement axé sur la compréhension des besoins en termes d informations, des relations entre les données et de la logique sous-jacente, sans se préoccuper des détails d'implémentation, tels que les types de bases de données ou la structure physique. Une fois le MCD établi, il sert de base pour créer le modèle logique de données (MLD), qui définit comment les données seront stockées dans une base de données relationnelle ou autre."
+        },
+        
+        {
+
+            "id": 26,
+            "title": "Diagramme de composants de structure (Composite Structure Diagram) ",
+            "image": "#",
+            "important": false,
+            "resumé": "Permet de représenter la structure interne d'un composant, y compris ses parties internes et leurs relations",
+            "description":"Il permet de représenter la structure interne d'une classe ou d'un composant, en montrant ses parties internes et leurs relations."
+        },
+        
+        {
+
+            "id": 27,
+            "title": "Diagramme de cas d'utilisation de paquetage (Package Use Case Diagram) ",
+            "image": "#",
+            "important": false,
+            "resumé": "Organise les cas d'utilisation en paquets pour une meilleure gestion.",
+            "description":"Il organise les cas d'utilisation en paquets pour simplifier la gestion des fonctionnalités du système."
+        },
+        
+        {
+
+            "id": 28,
+            "title": "Diagramme de composants de paquetage (Package Component Diagram) ",
+            "image": "#",
+            "important": false,
+            "resumé": "Organise les composants en paquets pour une meilleure gestion.",
+            "description":"Il organise les composants en paquets pour faciliter la gestion des composants logiciels."
+        },
+        {
+
+            "id": 29,
+            "title": "Diagramme de collaboration de paquetage (Package Collaboration Diagram) ",
+            "image": "#",
+            "important": false,
+            "resumé": "Organise les collaborations en paquets pour une meilleure gestion.",
+            "description":" Il organise les collaborations en paquets pour une meilleure gestion des interactions entre les objets."
+        },
+        {
+
+            "id": 30,
+            "title": "Diagramme de structure composite (Composite Structure Diagram)",
+            "image": "#",
+            "important": false,
+            "resumé": "Permet de représenter la structure interne d'une classe ou d'un composant.",
+            "description":"Il est principalement axé sur la compréhension des besoins en termes d informations, des relations entre les données et de la logique sous-jacente, sans se préoccuper des détails d'implémentation, tels que les types de bases de données ou la structure physique. Une fois le MCD établi, il sert de base pour créer le modèle logique de données (MLD), qui définit comment les données seront stockées dans une base de données relationnelle ou autre."
+        },
+        {
+
+            "id": 31,
+            "title": "Diagramme de dépendance (Dependency Diagram)",
+            "image": "#",
+            "important": false,
+            "resumé": "Montre les dépendances entre les éléments du modèle.",
+            "description":"Il montre les dépendances entre les éléments du modèle, montrant comment ils sont liés les uns aux autres."
+        },
+        {
+
+            "id": 32,
+            "title": "Diagramme de profil (Profile Diagram)",
+            "image": "#",
+            "important": false,
+            "resumé": "Il Utilisé pour définir des profils UML pour personnaliser le langage UML.",
+            "description":"Il est utilisé pour définir des profils UML personnalisés pour adapter le langage UML aux besoins spécifiques d'une organisation ou d'un domaine."
+        }
+        
+
+        
+
     ]
 }
