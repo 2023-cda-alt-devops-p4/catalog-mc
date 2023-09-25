@@ -1,6 +1,6 @@
 <script setup lang="ts">
 
-import Modal from ".\component\modal\Modal.vue";
+import Modal from "\component\modal\Modal.vue";
 </script>
 
 <template>

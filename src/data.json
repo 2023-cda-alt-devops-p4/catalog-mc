@@ -7,7 +7,6 @@
             "title": "MCD: Modele conceptuel de données",
             "image": "#",
             "important": true,
-            "categorie": "test",
             "resumé": "test",
             "description":"test"
         },
@@ -17,7 +16,6 @@
             "title": "MLD : Modèle logique des données ",
             "image": "#",
             "important": true,
-            "categorie": "test",
             "resumé": "test",
             "description":"test"
         },
@@ -27,7 +25,6 @@
             "title": "MOD : Modele organisationnel des donnees",
             "image": "#",
             "important": true,
-            "categorie": "test",
             "resumé": "test",
             "description":"test"
         },
@@ -37,7 +34,6 @@
             "title": "MPD : Modèle physique des données",
             "image": "#",
             "important": true,
-            "categorie": "test",
             "resumé": "test",
             "description":"test"
         },
@@ -47,7 +43,6 @@
             "title": "MCT : Modèle conceptuel des traitements",
             "image": "#",
             "important": true,
-            "categorie": "test",
             "resumé": "test",
             "description":"test"
         },
@@ -57,7 +52,6 @@
             "title": "MOT: Modèle organisationnel des traitements",
             "image": "#",
             "important": true,
-            "categorie": "test",
             "resumé": "test",
             "description":"test"
         },
@@ -67,7 +61,6 @@
             "title": "MLT : Modèle Logique des Traitements",
             "image": "#",
             "important": true,
-            "categorie": "test",
             "resumé": "test",
             "description":"test"
         },
@@ -77,7 +70,6 @@
             "title": "MPT : Modele Physique de traitements",
             "image": "#",
             "important": true,
-            "categorie": "test",
             "resumé": "test",
             "description":"test"
         },
@@ -87,7 +79,6 @@
             "title": "MCC : Modèle conceptuel de communication ",
             "image": "#",
             "important": true,
-            "categorie": "test",
             "resumé": "test",
             "description":"test"
         },
@@ -97,7 +88,6 @@
             "title": "MOC : Modele organisationnel de communication",
             "image": "#",
             "important": true,
-            "categorie": "test",
             "resumé": "test",
             "description":"test"
         },
@@ -107,7 +97,6 @@
             "title": "MLC : Modele logique de Communication ",
             "image": "#",
             "important": true,
-            "categorie": "test",
             "resumé": "test",
             "description":"test"
         },
@@ -117,7 +106,6 @@
             "title": "MPC : Modele physique de Communication ",
             "image": "#",
             "important": true,
-            "categorie": "test",
             "resumé": "test",
             "description":"test"
         }
