@@ -34,8 +34,8 @@
             "title": "MPD : Modèle physique des données",
             "image": "#",
             "important": true,
-            "resumé": "test",
-            "description":"test"
+            "resumé": "Une représentation concrète et technique des données",
+            "description":" Il définit la manière dont les données sont stockées, organisées et accédées dans un système informatique. Ce modèle inclut des détails tels que les structures de tables, les index, les contraintes, les types de données, et la manière dont les données sont réellement stockées sur un support physique."
         },
         {
 
