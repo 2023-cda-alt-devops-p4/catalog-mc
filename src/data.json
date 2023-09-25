@@ -112,5 +112,203 @@
     ],
     "uml": [
         
+        {
+
+            "id": 12,
+            "title": "Diagramme de cas d'utilisation (Use Case Diagram)",
+            "image": "#",
+            "important": true,
+            "resumé": "Montre les interactions entre les utilisateurs et les cas d'utilisation d'un système.",
+            "description":"Il est principalement axé sur la compréhension des besoins en termes d informations, des relations entre les données et de la logique sous-jacente, sans se préoccuper des détails d'implémentation, tels que les types de bases de données ou la structure physique. Une fois le MCD établi, il sert de base pour créer le modèle logique de données (MLD), qui définit comment les données seront stockées dans une base de données relationnelle ou autre."
+        },
+        {
+
+            "id": 13,
+            "title": "Diagramme de classes (Class Diagram)",
+            "image": "#",
+            "important": true,
+            "resumé": "Représente la structure statique d'un système en montrant les classes, les attributs, les opérations et les relations entre les classes",
+            "description":"Il est principalement axé sur la compréhension des besoins en termes d informations, des relations entre les données et de la logique sous-jacente, sans se préoccuper des détails d'implémentation, tels que les types de bases de données ou la structure physique. Une fois le MCD établi, il sert de base pour créer le modèle logique de données (MLD), qui définit comment les données seront stockées dans une base de données relationnelle ou autre."
+        },
+        {
+
+            "id": 14,
+            "title": "Diagramme d'objets (Object Diagram)",
+            "image": "#",
+            "important": true,
+            "resumé": "Représenter une instance particulière d'une classe avec ses attributs et ses relations.",
+            "description":"Il est principalement axé sur la compréhension des besoins en termes d informations, des relations entre les données et de la logique sous-jacente, sans se préoccuper des détails d'implémentation, tels que les types de bases de données ou la structure physique. Une fois le MCD établi, il sert de base pour créer le modèle logique de données (MLD), qui définit comment les données seront stockées dans une base de données relationnelle ou autre."
+        },
+        {
+
+            "id": 15,
+            "title": "Diagramme de séquence (Sequence Diagram)",
+            "image": "#",
+            "important": true,
+            "resumé": "Montre la séquence d'interactions entre les objets du système au fil du temps.",
+            "description":"Il est principalement axé sur la compréhension des besoins en termes d informations, des relations entre les données et de la logique sous-jacente, sans se préoccuper des détails d'implémentation, tels que les types de bases de données ou la structure physique. Une fois le MCD établi, il sert de base pour créer le modèle logique de données (MLD), qui définit comment les données seront stockées dans une base de données relationnelle ou autre."
+        },
+        {
+
+            "id": 16,
+            "title": "Diagramme de collaboration (Collaboration Diagram)",
+            "image": "#",
+            "important": true,
+            "resumé": " Similaire au diagramme de séquence, mais il met davantage l'accent sur les interactions entre les objets.",
+            "description":"Il est principalement axé sur la compréhension des besoins en termes d informations, des relations entre les données et de la logique sous-jacente, sans se préoccuper des détails d'implémentation, tels que les types de bases de données ou la structure physique. Une fois le MCD établi, il sert de base pour créer le modèle logique de données (MLD), qui définit comment les données seront stockées dans une base de données relationnelle ou autre."
+        },
+        {
+
+            "id": 17,
+            "title": "Diagramme d'états-transitions (Statechart Diagram)",
+            "image": "#",
+            "important": true,
+            "resumé": " Modélise le comportement d'un objet en montrant les différents états et les transitions entre ces états.",
+            "description":"Il est principalement axé sur la compréhension des besoins en termes d informations, des relations entre les données et de la logique sous-jacente, sans se préoccuper des détails d'implémentation, tels que les types de bases de données ou la structure physique. Une fois le MCD établi, il sert de base pour créer le modèle logique de données (MLD), qui définit comment les données seront stockées dans une base de données relationnelle ou autre."
+        },
+        {
+
+            "id": 18,
+            "title": "Diagramme d'activité (Activity Diagram)",
+            "image": "#",
+            "important": true,
+            "resumé": " Représente le flux de contrôle entre les activités ou les processus du système.",
+            "description":"Il est principalement axé sur la compréhension des besoins en termes d informations, des relations entre les données et de la logique sous-jacente, sans se préoccuper des détails d'implémentation, tels que les types de bases de données ou la structure physique. Une fois le MCD établi, il sert de base pour créer le modèle logique de données (MLD), qui définit comment les données seront stockées dans une base de données relationnelle ou autre."
+        },
+        {
+
+            "id": 19,
+            "title": "Diagramme de composants (Component Diagram)",
+            "image": "#",
+            "important": true,
+            "resumé": "Montre les composants physiques d'un système logiciel, leurs interfaces et leurs dépendances.",
+            "description":"Il est principalement axé sur la compréhension des besoins en termes d informations, des relations entre les données et de la logique sous-jacente, sans se préoccuper des détails d'implémentation, tels que les types de bases de données ou la structure physique. Une fois le MCD établi, il sert de base pour créer le modèle logique de données (MLD), qui définit comment les données seront stockées dans une base de données relationnelle ou autre."
+        },
+        {
+
+            "id": 20,
+            "title": "Diagramme de déploiement (Deployment Diagram)",
+            "image": "#",
+            "important": true,
+            "resumé": "Représente la configuration matérielle d'un système, montrant les nœuds et les connexions réseau.",
+            "description":"Il est principalement axé sur la compréhension des besoins en termes d informations, des relations entre les données et de la logique sous-jacente, sans se préoccuper des détails d'implémentation, tels que les types de bases de données ou la structure physique. Une fois le MCD établi, il sert de base pour créer le modèle logique de données (MLD), qui définit comment les données seront stockées dans une base de données relationnelle ou autre."
+        },
+        {
+
+            "id": 21,
+            "title": "Diagramme de paquetage (Package Diagram)",
+            "image": "#",
+            "important": true,
+            "resumé": " Organise les éléments du modèle UML en paquets pour faciliter la gestion.",
+            "description":"Il est principalement axé sur la compréhension des besoins en termes d informations, des relations entre les données et de la logique sous-jacente, sans se préoccuper des détails d'implémentation, tels que les types de bases de données ou la structure physique. Une fois le MCD établi, il sert de base pour créer le modèle logique de données (MLD), qui définit comment les données seront stockées dans une base de données relationnelle ou autre."
+        },
+        {
+
+            "id": 22,
+            "title": "Diagramme de temps (Timing Diagram)",
+            "image": "#",
+            "important": true,
+            "resumé": "Montre la manière dont les objets interagissent sur une échelle de temps.",
+            "description":"Il est principalement axé sur la compréhension des besoins en termes d informations, des relations entre les données et de la logique sous-jacente, sans se préoccuper des détails d'implémentation, tels que les types de bases de données ou la structure physique. Une fois le MCD établi, il sert de base pour créer le modèle logique de données (MLD), qui définit comment les données seront stockées dans une base de données relationnelle ou autre."
+        },
+        {
+
+            "id": 23,
+            "title": "Diagramme de communication (Communication Diagram)",
+            "image": "#",
+            "important": true,
+            "resumé": "Montre les interactions entre les objets sous forme de messages.",
+            "description":"Il est principalement axé sur la compréhension des besoins en termes d informations, des relations entre les données et de la logique sous-jacente, sans se préoccuper des détails d'implémentation, tels que les types de bases de données ou la structure physique. Une fois le MCD établi, il sert de base pour créer le modèle logique de données (MLD), qui définit comment les données seront stockées dans une base de données relationnelle ou autre."
+        },
+        
+        {
+
+            "id": 24,
+            "title": "Diagramme d'objet de déploiement (Instance Specification Diagram)",
+            "image": "#",
+            "important": true,
+            "resumé": "Utilisé pour montrer des exemples spécifiques d'objets de déploiement dans un diagramme de déploiement.",
+            "description":"Il est principalement axé sur la compréhension des besoins en termes d informations, des relations entre les données et de la logique sous-jacente, sans se préoccuper des détails d'implémentation, tels que les types de bases de données ou la structure physique. Une fois le MCD établi, il sert de base pour créer le modèle logique de données (MLD), qui définit comment les données seront stockées dans une base de données relationnelle ou autre."
+        },
+        
+        {
+
+            "id": 25,
+            "title": "Diagramme de temps (Timing Diagram)",
+            "image": "#",
+            "important": true,
+            "resumé": "Montre la manière dont les objets interagissent sur une échelle de temps.",
+            "description":"Il est principalement axé sur la compréhension des besoins en termes d informations, des relations entre les données et de la logique sous-jacente, sans se préoccuper des détails d'implémentation, tels que les types de bases de données ou la structure physique. Une fois le MCD établi, il sert de base pour créer le modèle logique de données (MLD), qui définit comment les données seront stockées dans une base de données relationnelle ou autre."
+        },
+        
+        {
+
+            "id": 26,
+            "title": "Diagramme de composants de structure (Composite Structure Diagram) ",
+            "image": "#",
+            "important": true,
+            "resumé": "Permet de représenter la structure interne d'un composant, y compris ses parties internes et leurs relations",
+            "description":"Il est principalement axé sur la compréhension des besoins en termes d informations, des relations entre les données et de la logique sous-jacente, sans se préoccuper des détails d'implémentation, tels que les types de bases de données ou la structure physique. Une fois le MCD établi, il sert de base pour créer le modèle logique de données (MLD), qui définit comment les données seront stockées dans une base de données relationnelle ou autre."
+        },
+        
+        {
+
+            "id": 27,
+            "title": "Diagramme de cas d'utilisation de paquetage (Package Use Case Diagram) ",
+            "image": "#",
+            "important": true,
+            "resumé": "Organise les cas d'utilisation en paquets pour une meilleure gestion.",
+            "description":"Il est principalement axé sur la compréhension des besoins en termes d informations, des relations entre les données et de la logique sous-jacente, sans se préoccuper des détails d'implémentation, tels que les types de bases de données ou la structure physique. Une fois le MCD établi, il sert de base pour créer le modèle logique de données (MLD), qui définit comment les données seront stockées dans une base de données relationnelle ou autre."
+        },
+        
+        {
+
+            "id": 28,
+            "title": "Diagramme de composants de paquetage (Package Component Diagram) ",
+            "image": "#",
+            "important": true,
+            "resumé": "Organise les composants en paquets pour une meilleure gestion.",
+            "description":"Il est principalement axé sur la compréhension des besoins en termes d informations, des relations entre les données et de la logique sous-jacente, sans se préoccuper des détails d'implémentation, tels que les types de bases de données ou la structure physique. Une fois le MCD établi, il sert de base pour créer le modèle logique de données (MLD), qui définit comment les données seront stockées dans une base de données relationnelle ou autre."
+        },
+        {
+
+            "id": 29,
+            "title": "Diagramme de collaboration de paquetage (Package Collaboration Diagram) ",
+            "image": "#",
+            "important": true,
+            "resumé": "Organise les collaborations en paquets pour une meilleure gestion.",
+            "description":"Il est principalement axé sur la compréhension des besoins en termes d informations, des relations entre les données et de la logique sous-jacente, sans se préoccuper des détails d'implémentation, tels que les types de bases de données ou la structure physique. Une fois le MCD établi, il sert de base pour créer le modèle logique de données (MLD), qui définit comment les données seront stockées dans une base de données relationnelle ou autre."
+        },
+        {
+
+            "id": 30,
+            "title": "Diagramme de structure composite (Composite Structure Diagram)",
+            "image": "#",
+            "important": true,
+            "resumé": "Permet de représenter la structure interne d'une classe ou d'un composant.",
+            "description":"Il est principalement axé sur la compréhension des besoins en termes d informations, des relations entre les données et de la logique sous-jacente, sans se préoccuper des détails d'implémentation, tels que les types de bases de données ou la structure physique. Une fois le MCD établi, il sert de base pour créer le modèle logique de données (MLD), qui définit comment les données seront stockées dans une base de données relationnelle ou autre."
+        },
+        {
+
+            "id": 31,
+            "title": "Diagramme de dépendance (Dependency Diagram)",
+            "image": "#",
+            "important": true,
+            "resumé": "Montre les dépendances entre les éléments du modèle.",
+            "description":"Il est principalement axé sur la compréhension des besoins en termes d informations, des relations entre les données et de la logique sous-jacente, sans se préoccuper des détails d'implémentation, tels que les types de bases de données ou la structure physique. Une fois le MCD établi, il sert de base pour créer le modèle logique de données (MLD), qui définit comment les données seront stockées dans une base de données relationnelle ou autre."
+        },
+        {
+
+            "id": 32,
+            "title": "Diagramme de profil (Profile Diagram)",
+            "image": "#",
+            "important": true,
+            "resumé": "Il Utilisé pour définir des profils UML pour personnaliser le langage UML.",
+            "description":"Il est principalement axé sur la compréhension des besoins en termes d informations, des relations entre les données et de la logique sous-jacente, sans se préoccuper des détails d'implémentation, tels que les types de bases de données ou la structure physique. Une fois le MCD établi, il sert de base pour créer le modèle logique de données (MLD), qui définit comment les données seront stockées dans une base de données relationnelle ou autre."
+        }
+        
+
+        
+
     ]
 }
