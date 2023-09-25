@@ -61,8 +61,8 @@
             "title": "MLT : Modèle Logique des Traitements",
             "image": "#",
             "important": true,
-            "resumé": "test",
-            "description":"test"
+            "resumé": "Le MLT est une représentation intermédiaire entre le modèle conceptuel et le modèle physique de traitement",
+            "description":"Ce modèle définit la séquence, la structure, et les règles de traitement des données, mettant en évidence les opérations, les étapes et les interactions essentielles du système. Il facilite la communication entre les concepteurs et les développeurs"
         },
         {
 
@@ -70,8 +70,8 @@
             "title": "MPT : Modele Physique de traitements",
             "image": "#",
             "important": true,
-            "resumé": "test",
-            "description":"test"
+            "resumé": "Le MPT est une représentation détaillée et spécifique des processus, des opérations et des flux de données. ",
+            "description":"Il se focalise sur les aspects techniques et concrets de la mise en œuvre. Ce modèle définit comment les traitements sont exécutés, quels équipements et ressources sont utilisés, ainsi que les spécifications de données nécessaires pour l'exécution des processus. Il joue un rôle crucial dans la mise en place effective des systèmes informatiques en guidant les programmeurs dans la création de logiciels, la configuration matérielle et le déploiement des applications."
         },
         {
 
