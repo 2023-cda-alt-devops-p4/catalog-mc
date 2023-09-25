@@ -97,8 +97,8 @@
             "title": "MLC : Modele logique de Communication ",
             "image": "#",
             "important": true,
-            "resumé": "test",
-            "description":"test"
+            "resumé": "Une représentation intermédiaire entre le modèle conceptuel et le modèle physique de communication.",
+            "description":" Ce modèle définit les flux d'information, les canaux de communication, les formats de données, et les règles de transmission, facilitant ainsi la conception des systèmes de communication sans entrer dans les spécificités de l'infrastructure matérielle ou des protocoles de communication. Il joue un rôle essentiel dans la planification et la conception des systèmes de communication."
         },
         {
 
@@ -106,8 +106,8 @@
             "title": "MPC : Modele physique de Communication ",
             "image": "#",
             "important": true,
-            "resumé": "test",
-            "description":"test"
+            "resumé": "Une représentation détaillée et spécifique des composants matériels, des protocoles, et de l'infrastructure nécessaire à la transmission et à la réception des données dans un système de communication.",
+            "description":" Il se concentre sur les aspects techniques concrets, tels que les équipements, les câblages, les fréquences, les débits, les protocoles de communication, et les spécifications physiques des canaux de transmission. Ce modèle décrit comment les données sont transmises de manière pratique et efficace, et il est essentiel pour l'implémentation et la maintenance des réseaux de communication, des systèmes de télécommunication et d'autres infrastructures de transmission de données."
         }
     ],
     "uml": [
