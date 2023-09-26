@@ -80,29 +80,37 @@
         z-index: 502;
     }
 
-    .diagram-card {
-  background-color: #f5f5f5;
-  border: 1px solid #e0e0e0;
-  border-radius: 5px;
-  padding: 10px;
-  margin-top: 20px;
-}
+        .diagram-card {
+    background-color: #f5f5f5;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    }
 
-.diagram-card .header {
-  font-size: 24px;
-}
+    .diagram-card .header {
+    font-size: 24px;
+    }
 
-.diagram-card .card-img {
-  text-align: center;
-}
-    
-.diagram-card .card-img img {
-  max-width: 100%;
-  height: auto;
-}
+    .diagram-card .card-img {
+    text-align: center;
+    }
+        
+    .diagram-card .card-img img {
+    max-width: 100%;
+    height: auto;
+    }
 
-.diagram-card .diagram-content {
-    padding: 10px 0;
-}
+    .diagram-card .diagram-content {
+        padding: 10px 0;
+    }
+
+    .diagram-card table {
+    width: 100%;
+    }
+
+    .diagram-card table td {
+    padding: 5px;
+    }
 
 </style>
