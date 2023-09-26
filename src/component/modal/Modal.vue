@@ -1,25 +1,20 @@
 <script lang="ts" setup>
+import { defineProps, defineEmits } from 'vue';
+
     const props = defineProps<{
         title?: string,
         isVisible: boolean
     }>();
+    
+    const diagramList = ref([]);
+    let diagram = null;
 
-    export default {
-        data() {
-            return {
-                diagramList[],
-                diagram: undefined,
-            };
-        },
-        methods: {
-            goToDiagramList() {
-                this.$router.push('/diagrams');
-            }
-        }
-    };
+    const goToDiagramList = () => {
+    $router.push('/diagrams');
+  };
     
    
-
+    
     defineEmits(['setIsVisible']);
 
 
@@ -53,7 +48,7 @@
                     
                 </div>
                 <div class="card-action">
-                    <!--<a @click="goToDiagramList">Retour</a>-->
+                    <a @click="goToDiagramList">Retour</a>
                 </div>
             </div>
             
