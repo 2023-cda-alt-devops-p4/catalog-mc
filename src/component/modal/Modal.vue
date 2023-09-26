@@ -10,10 +10,8 @@ import { defineProps, defineEmits } from 'vue';
     let diagram = null;
 
     const goToDiagramList = () => {
-    $router.push('/diagrams');
-  };
-    
-   
+    $router.push('/Diagrams');
+    };
     
     defineEmits(['setIsVisible']);
 
