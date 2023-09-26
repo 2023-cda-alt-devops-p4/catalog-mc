@@ -9,9 +9,14 @@
             return {
                 diagramList[],
                 diagram: undefined,
+            };
+        },
+        methods: {
+            goToDiagramList() {
+                this.$router.push('/diagrams');
             }
         }
-    }
+    };
     
    
 
