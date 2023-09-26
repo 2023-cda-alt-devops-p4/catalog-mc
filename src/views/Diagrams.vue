@@ -6,9 +6,6 @@ export default {
             diagramList: []
         };
     },
-    created () {
-        //DiagramService.getDiagramList().then(diagramList => { this.diagramList = diagramList;});
-    },
     methods: {
         goToDiagram(diagram) {
             this.$router.push({ title: '', params: { id: diagram.id}});
