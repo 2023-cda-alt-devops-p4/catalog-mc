@@ -30,25 +30,26 @@
         display: flex;
         justify-content: center;
         align-items: center;
-
-        .modal-global-overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            height: 100%;
-            width: 100%;
-            background-color: transparent;
-            z-index: 501;
-
-        }
-        .modal-container {
-            width: 40%;
-            height: auto;
-            min-height: 400px;
-            background-color: #FFF;
-            border-radius: 10px;
-            position: relative;
-            z-index: 502;
-        }
     }
+
+    .modal-global-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: transparent;
+        z-index: 501;
+
+    }
+    .modal-container {
+        width: 40%;
+        height: auto;
+        min-height: 400px;
+        background-color: #FFF;
+        border-radius: 10px;
+        position: relative;
+        z-index: 502;
+    }
+    
 </style>

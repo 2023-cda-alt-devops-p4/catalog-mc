@@ -1,11 +1,11 @@
 <script>
 
 export default {
-    setup() {
+    data() {
         return {
-
-        }
-    }
+            diagramList: []
+        };
+    },
 }
 </script>
 
@@ -20,6 +20,7 @@ export default {
 
             <div class="card-stacked">
                 <div class="card-content">
+
                     <p>{{ diagram.name }}</p>
                     <p><small> {{ diagram.resume }}</small></p>
                 </div>
