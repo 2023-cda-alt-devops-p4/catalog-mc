@@ -8,13 +8,17 @@
     <link rel="stylesheet" href="src/assets/base.css">
 </head>
 <body>
+
+    <script src="https://unpkg.com/vue@3"></script>
+    <script src="https://unpkg.com/vue-router@4"></script>
+<!--
     <header>
         <img src="src/assets/media/LogoDiagram.png" alt="Logo">
         <h1>Diagram Universe</h1>
     </header>
 
     <main>
-
+-->
         <div id="app">
 
 
@@ -25,19 +29,10 @@
 
                 <div class="diagram-resume"></div>
             </div>
+
+            <router-view></router-view>
         </div>
-
-        <script>
-            const app = Vue.createApp({
-                data() {
-                    return {
-                        card: "test data"
-                    }
-                }
-            });
-            app.mount('#app')
-        </script>
-
+<!--
     </main>
 
     <footer>
@@ -49,7 +44,7 @@
             </ul>
         </div>
     </footer>
-
+-->
     <script type="module" src="/src/main.ts"></script>
 </body>
 </html>

@@ -14,7 +14,7 @@ export default {
 <template>
     <nav>
             <ul>
-                <li :class="{ active: currentRoute === '/' }"><router-link to="/">Accueil</router-link></li>
+                <li :class="{ active: currentRoute === '/Home' }"><router-link to="/Home">Accueil</router-link></li>
                 <li :class="{ active: currentRoute === '/' }"><router-link to="/">Diagrammes</router-link></li>
                 <li :class="{ active: currentRoute === '/' }"><router-link to="/">A Propos</router-link></li>
             </ul>
