@@ -4,41 +4,56 @@
         isVisible: boolean
     }>();
 
+    export default {
+        data() {
+            return {
+                diagramList[],
+                diagram: undefined,
+            }
+        }
+    }
+    
+   
+
     defineEmits(['setIsVisible']);
+
+
 </script>
 
 <template>
     <div v-if="isVisible" class="modal-global-container">
         <div class="modal-container">
-            <h2 class="header center"> {{ "diagram.title" }}</h2> <!--Titre du diagram selectionné-->
-
+            
             <div class="diagram-card">
+                <h2 class="header center"> {{ "diagram.title" }}</h2> <!--Titre du diagram selectionné-->
                 <div class="card-img">
-                    <img src="#" alt="image du diagram">
+                <img src="#" alt="image du diagram">
+            </div>
+            <div class="card-stacked">
+                <div class="card-content">
+                    <table class="bordered striped">
+                        <tbody>
+                            <tr>
+                                <td>Type de Digramme : </td>
+                                <td> {{ "merise/uml" }}</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Definition : </td>
+                                <td> {{ "diagram.definition" }}</td>
+                                    
+                            </tr>
+                        </tbody>
+                    </table>
+                    
                 </div>
-                <div class="card-stacked">
-                    <div class="card-content">
-                        <table class="bordered striped">
-                            <tbody>
-                                <tr>
-                                    <td>Type de Digramme : </td>
-                                    <td> {{ "merise/uml" }}</td>
-                                    
-                                </tr>
-                                <tr>
-                                    <td>Definition : </td>
-                                    <td> {{ "diagram.definition" }}</td>
-                                    
-                                </tr>
-                            </tbody>
-                        </table>
-                        
-                    </div>
-                    <div class="card-action">
+                <div class="card-action">
                     <!--<a @click="goToDiagramList">Retour</a>-->
                 </div>
-                </div>
             </div>
+            
+            </div>
+            
         </div>
 
         <div class="modal-global-overlay" @click="$emit('setIsVisible', !props.isVisible)" />
