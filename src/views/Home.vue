@@ -8,9 +8,13 @@
 
 
 export default {
-    name: 'Home',
-    components: {
-
+    computed: {
+        username() {
+            return this.$route.params.username
+        },
+    },
+    methods: {
+        
     }
 }
 </script>

@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="src/assets/base.css">
 </head>
 <body>
+
+    <script src="https://unpkg.com/vue@3"></script>
+    <script src="https://unpkg.com/vue-router@4"></script>
+
     <header>
         <img src="src/assets/media/LogoDiagram.png" alt="Logo">
         <h1>Diagram Universe</h1>
@@ -25,6 +29,8 @@
 
                 <div class="diagram-resume"></div>
             </div>
+            
+            <router-view></router-view>
         </div>
 
         <script>

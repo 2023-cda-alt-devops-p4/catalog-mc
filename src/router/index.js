@@ -21,7 +21,13 @@ const routes = [
 
 const router = createRouter({
     history: createWebHistory(process.env.BASE_URL),
-    routes
+    routes,
 })
+
+const app = Vue.createApp({})
+
+app.use(router)
+
+app.mount('#app')
 
 export default router
