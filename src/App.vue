@@ -1,13 +1,18 @@
 <script setup lang="ts">
 
 import Modal from "./component/modal/Modal.vue";
+import { ref } from "vue";
+
+const isVisible = ref<boolean>(true);
 </script>
 
 <template>
-
-    <Modal
-    :isVisible= "true"
-    />
+    <div>
+        <Modal
+        :isVisible= "isVisible"
+        v-on:setIsVisible="(value:boolean) => isVisible = value"
+        />
+    </div>
 </template>
 
 
