@@ -3,7 +3,8 @@
 import Modal from "./component/modal/Modal.vue";
 import { ref } from "vue";
 
-const isVisible = ref<boolean>(false);
+const isVisible = ref<boolean>(true);
+
 </script>
 
 <template>

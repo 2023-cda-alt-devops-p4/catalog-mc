@@ -1,13 +1,10 @@
 <script lang="ts" setup>
-import { defineProps, defineEmits } from 'vue';
 
     const props = defineProps<{
         title?: string,
         isVisible: boolean
     }>();
     
-    const diagramList = ref([]);
-    let diagram = null;
 
     const goToDiagramList = () => {
     $router.push('/Diagrams');
