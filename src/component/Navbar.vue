@@ -5,14 +5,14 @@
 <template>
     <div class="content">
         <div id="logo">
-                Test
+            <img src="../assets/media/LogoDiagram.png" alt="Logo">
         </div>
         <nav>
 
             <ul class="nav-links">
-                <li><a  href="#">Home</a></li>
-                <li><a href="#">Diagrammes</a></li>
-                <li><a href="#">About</a></li><!-- quand on met : c'est pour mettre du code entre ""-->
+                <li><a  href="#"> Home </a></li>
+                <li><a href="#"> Diagrammes </a></li>
+                <li><a href="#"> About </a></li><!-- quand on met : c'est pour mettre du code entre ""-->
             </ul>
 
             <div id="burger">
@@ -29,18 +29,27 @@
 
 .content {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    background-color: #f0cdcd;
+    
     min-height: 8vh;
     font-family: 'Montserrat', sans-serif;
 }
 
-
+nav {
+    background-color: #f0cdcd;
+    padding: 0 50px;
+}
 ul.nav-links {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 50%;
   line-height: 75px;
+}
+
+ul.nav-links a {
+  color: #fefefe;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 </style>
