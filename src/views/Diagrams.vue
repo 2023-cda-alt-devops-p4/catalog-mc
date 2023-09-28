@@ -1,31 +1,39 @@
 <script lang="ts" setup>
-import { ref } from 'vue';
+import { ref, onMounted } from 'vue';
 import IDiagram from '../interface/IDiagram'
 import Modal from '../component/modal/Modal.vue'
+import meriseData from '../data/merise.json'
+import umlData from '../data/uml.json'
+
 
     const diagramList = ref<IDiagram[]>([])
 
     const modalIsVisible = ref<boolean>(false)
-/*
+
     const goToModal = (diagram: IDiagram) => {
         modalIsVisible.value = !modalIsVisible.value
-    }*/ 
+    }
+
+    onMounted(() => {
+        diagramList.value = [...meriseData, ...umlData];
+    });
 </script>
 
 <template>
 
     <div class="row">
-    <div v-for="diagram in diagramList">
-        <div @click="goToModal(diagram)" class="custom-card">
-        <div class="custom-card-image">
-            <img :src="diagram.image" alt="Diagram Image">
+        <div v-for="diagram in diagramList">
+            <div @click="goToModal(diagram)" class="custom-card">
+                <div class="custom-card-image">
+                    <img :src="diagram.image" alt="Diagram Image">
+                </div>
+                <div class="custom-card-content">
+                    
+                    <p class="custom-card-title">{{ "diagram.title" }}</p>
+                    <p class="custom-card-description">{{ diagram.resume }}</p>
+                </div>
+            </div>
         </div>
-        <div class="custom-card-content">
-            <p class="custom-card-title">{{ diagram.title }}</p>
-            <p class="custom-card-description">{{ diagram.resume }}</p>
-        </div>
-        </div>
-    </div>
     </div>
 
     <Modal
@@ -75,5 +83,3 @@ import Modal from '../component/modal/Modal.vue'
     }
 </style>
 
-
-../interface/IDiagram

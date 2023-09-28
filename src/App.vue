@@ -3,18 +3,12 @@
 import Modal from "./component/modal/Modal.vue";
 import { ref } from "vue";
 import Navbar from "./component/Navbar.vue";
-import merise from "./data/merise.json";
+import Diagrams from "./views/Diagrams.vue";
 
 
 const isVisible = ref<boolean>(true);
 
-export default {
-  data() {
-    return {
-      diagram: merise
-    };
-  },
-};
+const diagram = Diagrams;
 </script>
 
 <template>
@@ -51,9 +45,7 @@ export default {
         ]"
         />
 
-        <Diagrams 
-        
-        />
+        <pre>{{ diagram }}</pre>
         <Modal
         :isVisible= "isVisible"
         v-on:setIsVisible="(value:boolean) => isVisible = value"
