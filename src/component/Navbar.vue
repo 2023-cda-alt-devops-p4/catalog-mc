@@ -50,7 +50,7 @@ ul.nav-links {
     
 }
 
-ul.nav-links a {
+ul.nav-links {
     color: #070707;
     font-size: 1.2rem;
     font-weight: 500;
@@ -58,5 +58,13 @@ ul.nav-links a {
 
 li{
     margin: 0 20px;
+    font-family: oswald, sans-serif;
 }
+
+li :hover{
+    padding: 1rem;
+    background-color: #070707;
+    color: #fefefe;
+}
+
 </style>
