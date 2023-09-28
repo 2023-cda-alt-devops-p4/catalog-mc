@@ -26,30 +26,37 @@
 </template>
 
 <style scoped>
-
 .content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    background: #f7f3f6;
+	height: 100px;
+	width: 100%;
     min-height: 8vh;
     font-family: 'Montserrat', sans-serif;
 }
 
 nav {
-    background-color: #f0cdcd;
+    background-color: #fefefe;
+    border : 10px solid #070707;
     padding: 0 50px;
 }
 ul.nav-links {
-  display: flex;
-  justify-content: space-around;
-  width: 50%;
-  line-height: 75px;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    line-height: 80px;
+    
 }
 
 ul.nav-links a {
-  color: #fefefe;
-  font-size: 1.2rem;
-  font-weight: 500;
+    color: #070707;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+li{
+    margin: 0 20px;
 }
 </style>
