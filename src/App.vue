@@ -1,12 +1,14 @@
-<script setup lang="ts">
+<script lang="ts" setup>
 
 import Modal from "./component/modal/Modal.vue";
 import { ref } from "vue";
 import Navbar from "./component/Navbar.vue";
+import Diagrams from "./views/Diagrams.vue";
+
 
 const isVisible = ref<boolean>(true);
 
-
+const diagram = Diagrams;
 </script>
 
 <template>
@@ -42,6 +44,8 @@ const isVisible = ref<boolean>(true);
             },
         ]"
         />
+
+        <pre>{{ diagram }}</pre>
         <Modal
         :isVisible= "isVisible"
         v-on:setIsVisible="(value:boolean) => isVisible = value"
