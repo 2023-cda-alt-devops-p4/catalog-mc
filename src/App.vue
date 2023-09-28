@@ -42,6 +42,10 @@ const isVisible = ref<boolean>(true);
             },
         ]"
         />
+
+        <Diagrams 
+        
+        />
         <Modal
         :isVisible= "isVisible"
         v-on:setIsVisible="(value:boolean) => isVisible = value"

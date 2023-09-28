@@ -6,10 +6,10 @@ import Modal from '../component/modal/Modal.vue'
     const diagramList = ref<IDiagram[]>([])
 
     const modalIsVisible = ref<boolean>(false)
-
+/*
     const goToModal = (diagram: IDiagram) => {
         modalIsVisible.value = !modalIsVisible.value
-    }
+    }*/ 
 </script>
 
 <template>
