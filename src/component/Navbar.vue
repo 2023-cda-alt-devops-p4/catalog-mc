@@ -39,8 +39,8 @@
 
 nav {
     background-color: #fefefe;
-    border : 10px solid #070707;
-    padding: 0 50px;
+    border : 3.5px solid #070707;
+    padding: 0.2em 50px;
 }
 ul.nav-links {
     display: flex;
