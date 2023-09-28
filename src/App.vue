@@ -1,12 +1,20 @@
-<script setup lang="ts">
+<script lang="ts" setup>
 
 import Modal from "./component/modal/Modal.vue";
 import { ref } from "vue";
 import Navbar from "./component/Navbar.vue";
+import merise from "./data/merise.json";
+
 
 const isVisible = ref<boolean>(true);
 
-
+export default {
+  data() {
+    return {
+      diagram: merise
+    };
+  },
+};
 </script>
 
 <template>
