@@ -2,7 +2,7 @@
   {
     "id": 0,
     "title": "MCD: Modele conceptuel de données",
-    "image": "#",
+    "image": "../assets/media/MeriseMCD.png",
     "important": true,
     "resume": "Focalisé sur les besoins, relations et logique; base pour MLD.",
     "description": "Il est principalement axé sur la compréhension des besoins en termes d informations, des relations entre les données et de la logique sous-jacente, sans se préoccuper des détails d'implémentation, tels que les types de bases de données ou la structure physique. Une fois le MCD établi, il sert de base pour créer le modèle logique de données (MLD), qui définit comment les données seront stockées dans une base de données relationnelle ou autre."
@@ -10,7 +10,7 @@
   {
     "id": 1,
     "title": "MLD : Modèle logique des données ",
-    "image": "#",
+    "image": "../assets/media/MeriseMLD.png",
     "important": true,
     "resume": "Base pour la création et la gestionde la BDD, en précisant comment les données doivent être structurées",
     "description": "Un MCD est une représentation abstraite des données, qui décrit comment les données sont organisées, stockées et manipulées dans un système d'information. Il définit les entités, les relations, les attributs et les contraintes qui structurent les données, offrant ainsi une vue conceptuelle qui facilite la communication entre les concepteurs de BDD et les utilisateurs finaux."
@@ -25,7 +25,7 @@
   },
   {
     "id": 3,
-    "title": "MPD : Modèle physique des données",
+    "title": "../assets/media/MeriseMPD.webp",
     "image": "#",
     "important": true,
     "resume": "Une représentation concrète et technique des données",

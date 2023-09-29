@@ -8,7 +8,7 @@
     <div class="content">
         <header>
             
-        <img src="../assets/media/LogoDiagram.png" alt="Logo">
+       
         <h1>Diagram Universe</h1>
     </header>
 
