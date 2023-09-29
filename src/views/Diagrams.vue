@@ -17,6 +17,7 @@ import umlData from '../data/uml.json'
 
     onMounted(() => {
         diagramList.value = [...meriseData, ...umlData];
+        console.log(meriseData);
     });
 </script>
 

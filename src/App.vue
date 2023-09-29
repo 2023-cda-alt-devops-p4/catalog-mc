@@ -45,7 +45,7 @@ const diagram = Diagrams;
         ]"
         />
 
-        <pre>{{ diagram }}</pre>
+        <Diagrams />
         <Modal
         :isVisible= "isVisible"
         v-on:setIsVisible="(value:boolean) => isVisible = value"
