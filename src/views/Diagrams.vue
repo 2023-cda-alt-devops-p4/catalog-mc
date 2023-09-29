@@ -23,20 +23,23 @@ import umlData from '../data/uml.json'
 
 <template>
 
-    <div class="row">
-        <div v-for="diagram in diagramList" :key="diagram.id">
-            <div @click="goToModal(diagram)" class="custom-card">
-                <div class="custom-card-image">
-                    <img :src="diagram.image" alt="Diagram Image">
-                </div>
-                <div class="custom-card-content">
-                    
-                    <p class="custom-card-title">{{ diagram.title }}</p>
-                    <p class="custom-card-description">{{ diagram.resume }}</p>
+    <div class="content">
+        <div class="row">
+            <div class="card-item" v-for="diagram in diagramList" :key="diagram.id">
+                <div @click="goToModal(diagram)" class="custom-card">
+                    <div class="custom-card-image">
+                        <img :src="diagram.image" alt="Diagram Image">
+                    </div>
+                    <div class="custom-card-content">
+                        
+                        <p class="custom-card-title">{{ diagram.title }}</p>
+                        <p class="custom-card-description">{{ diagram.resume }}</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+        
 
     <Modal
     :on-set-is-visible="() => modalIsVisible = !modalIsVisible"
@@ -44,6 +47,12 @@ import umlData from '../data/uml.json'
 </template>
 
 <style>
+
+    .content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+    }
 
     .custom-card {
         display: flex;
@@ -59,18 +68,24 @@ import umlData from '../data/uml.json'
         transform: scale(1.05);
     }
 
+    .card-item {
+        display: flex;
+        padding: 1rem;
+    }
+
     .custom-card-image {
         width: 100px; 
-        height: 100px; 
+        max-width: 100%;
+        vertical-align: middle;
         flex-shrink: 0;
         background-size: cover;
     }
 
     .custom-card-content {
-        flex: 1;
-        padding: 10px;
         display: flex;
+        flex: 1 1 auto;
         flex-direction: column;
+        padding: 1rem;
     }
 
     .custom-card-title {
