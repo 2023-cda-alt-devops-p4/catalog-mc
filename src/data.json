@@ -22,7 +22,7 @@
     {
         "id": 2,
         "title": "MOD : Modele organisationnel des donnees",
-        "image": "#",
+        "image": "src/assets/media/NoImage.jpg",
         "important": false,
         "type": "merise",
         "resume": "test",
@@ -149,7 +149,7 @@
     {
         "id": 16,
         "title": "Diagramme de collaboration (Collaboration Diagram)",
-        "image": "#",
+        "image": "src/assets/media/NoImage.jpg",
         "important": false,
         "type": "uml",
         "resume": " Similaire au diagramme de séquence, mais il met davantage l'accent sur les interactions entre les objets.",
@@ -222,7 +222,7 @@
     {
         "id": 24,
         "title": "Diagramme d'objet de déploiement (Instance Specification Diagram)",
-        "image": "#",
+        "image": "src/assets/media/NoImage.jpg",
         "important": false,
         "type": "uml",
         "resume": "Utilisé pour montrer des exemples spécifiques d'objets de déploiement dans un diagramme de déploiement.",
@@ -232,7 +232,7 @@
     {
         "id": 25,
         "title": "Diagramme de temps (Timing Diagram)",
-        "image": "#",
+        "image": "src/assets/media/NoImage.jpg",
         "important": false,
         "type": "uml",
         "resume": "Montre la manière dont les objets interagissent sur une échelle de temps.",
@@ -242,7 +242,7 @@
     {
         "id": 26,
         "title": "Diagramme de composants de structure (Composite Structure Diagram) ",
-        "image": "#",
+        "image": "src/assets/media/NoImage.jpg",
         "important": false,
         "type": "uml",
         "resume": "Permet de représenter la structure interne d'un composant, y compris ses parties internes et leurs relations",
@@ -252,7 +252,7 @@
     {
         "id": 27,
         "title": "Diagramme de cas d'utilisation de paquetage (Package Use Case Diagram) ",
-        "image": "#",
+        "image": "src/assets/media/NoImage.jpg",
         "important": false,
         "type": "uml",
         "resume": "Organise les cas d'utilisation en paquets pour une meilleure gestion.",
@@ -262,7 +262,7 @@
     {
         "id": 28,
         "title": "Diagramme de composants de paquetage (Package Component Diagram) ",
-        "image": "#",
+        "image": "src/assets/media/NoImage.jpg",
         "important": false,
         "type": "uml",
         "resume": "Organise les composants en paquets pour une meilleure gestion.",
@@ -271,7 +271,7 @@
     {
         "id": 29,
         "title": "Diagramme de collaboration de paquetage (Package Collaboration Diagram) ",
-        "image": "#",
+        "image": "src/assets/media/NoImage.jpg",
         "important": false,
         "type": "uml",
         "resume": "Organise les collaborations en paquets pour une meilleure gestion.",
@@ -280,7 +280,7 @@
     {
         "id": 30,
         "title": "Diagramme de structure composite (Composite Structure Diagram)",
-        "image": "#",
+        "image": "src/assets/media/NoImage.jpg",
         "important": false,
         "type": "uml",
         "resume": "Permet de représenter la structure interne d'une classe ou d'un composant.",
@@ -289,7 +289,7 @@
     {
         "id": 31,
         "title": "Diagramme de dépendance (Dependency Diagram)",
-        "image": "#",
+        "image": "src/assets/media/NoImage.jpg",
         "important": false,
         "type": "uml",
         "resume": "Montre les dépendances entre les éléments du modèle.",
