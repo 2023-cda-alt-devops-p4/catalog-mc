@@ -17,6 +17,18 @@
         <li>Documentation : Les diagrammes servent de documentation précieuse pour les développeurs, les testeurs et les futurs mainteneurs du logiciel.</li>
         <li>Analyse et Prise de Décision : Ils aident à analyser les besoins des utilisateurs, à identifier les goulots d'étranglement et à prendre des décisions éclairées lors de la phase de conception.</li>
     </ul>
+
+    <h2>Diagrammes Fondamentaux</h2>
+
+    <p>Parmi les nombreux types de diagrammes UML, certains sont particulièrement fondamentaux dans la conception de projets informatiques. Les plus importants comprennent :</p>
+
+    <ul>
+        <li>Diagramme de Cas d'Utilisation : Il modélise les interactions entre les utilisateurs et le système, aidant à identifier les fonctionnalités nécessaires.</li>
+        <li>Diagramme de Classes : Il représente la structure statique du système, décrivant les classes, les attributs et les relations entre les objets.</li>
+        <li>Diagramme de Séquence : Il illustre les interactions entre les objets au fil du temps, montrant comment les activités se déroulent.</li>
+        <li>Diagramme de Flux de Données : C'est un élément clé de la méthode Merise, décrivant comment les données circulent dans le système.</li>
+        <li>Diagramme de Modèle Entité-Relation (MER) : Il modélise la structure des données en représentant les entités et leurs relations dans une base de données.</li>
+    </ul>
 </template>
 
 <style scoped>
