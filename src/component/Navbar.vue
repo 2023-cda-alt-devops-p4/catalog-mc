@@ -12,7 +12,8 @@
             <ul class="nav-links">
                 <li><a  href="#"> Home </a></li>
                 <li><a href="#"> Diagrammes </a></li>
-                <li><a href="#"> About </a></li><!-- quand on met : c'est pour mettre du code entre ""-->
+                <li><a href="#"> About </a></li><!-- quand on met : c'est pour mettre du code entre ""
+                changer les liens-->
             </ul>
 
             <div id="burger">

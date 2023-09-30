@@ -17,10 +17,9 @@ import umlData from '../data/uml.json'
 
     onMounted(() => {
         diagramList.value = [...meriseData, ...umlData];
-       
+
     });
 
-    /*Les images ne s'affichent pas*/
 </script>
 
 <template>
@@ -46,13 +45,20 @@ import umlData from '../data/uml.json'
     <Modal
     :on-set-is-visible="() => modalIsVisible = !modalIsVisible"
     :isVisible = "modalIsVisible"/>
+<!--
+    <footer>
+        <div class="footer">
+            @2023 DiagramUniverse
+            <ul>
+                <li>Mentions Legales</li>
+                <li>Politique de confidentialité</li>
+            </ul>
+        </div>
+    </footer>-->
 </template>
 
 <style scoped>
-/* 
-c'est pas responsive 
-BONUS: Ajouter une bar de recherche si il y a le temps 
-*/
+
     .content {
         
     }
