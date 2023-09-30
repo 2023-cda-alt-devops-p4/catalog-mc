@@ -48,15 +48,13 @@ import umlData from '../data/uml.json'
     :isVisible = "modalIsVisible"/>
 </template>
 
-<style>
+<style scoped>
 /* le grid ne fonctionne pas comme j'aimerai, aussi il faut ajouter un contener global car la c'est vraiment tres moche
 c'est pas responsive 
 BONUS: Ajouter une bar de recherche si il y a le temps 
 */
     .content {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 20px;
+        
     }
 
     .custom-card {
