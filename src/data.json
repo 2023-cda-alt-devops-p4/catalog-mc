@@ -4,7 +4,7 @@
     {
         "id": 0,
         "title": "MCD: Modele conceptuel de données",
-        "image": "../assets/media/MeriseMCD.png",
+        "image": "./assets/media/MeriseMCD.png",
         "important": true,
         "type": "merise",
         "resume": "Focalisé sur les besoins, relations et logique; base pour MLD.",
@@ -13,7 +13,7 @@
     {
         "id": 1,
         "title": "MLD : Modèle logique des données ",
-        "image": "../assets/media/MeriseMLD.png",
+        "image": "./assets/media/MeriseMLD.png",
         "important": true,
         "type": "merise",
         "resume": "Base pour la création et la gestionde la BDD, en précisant comment les données doivent être structurées",
@@ -31,7 +31,7 @@
     {
         "id": 3,
         "title": "MPD: Modele physique de donnees",
-        "image": "../assets/media/MeriseMPD.webp",
+        "image": "./assets/media/MeriseMPD.webp",
         "important": true,
         "type": "merise",
         "resume": "Une représentation concrète et technique des données",
@@ -40,7 +40,7 @@
     {
         "id": 4,
         "title": "MCT : Modèle conceptuel des traitements",
-        "image": "#",
+        "image": "./assets/media/MeriseMCT.png",
         "important": true,
         "type": "merise",
         "resume": "Le MCT est une représentation abstraite des processus, des opérations et des flux d'informations.",
@@ -49,7 +49,7 @@
     {
         "id": 5,
         "title": "MOT: Modèle organisationnel des traitements",
-        "image": "#",
+        "image": "./assets/media/MeriseMOpT.png",
         "important": false,
         "type": "merise",
         "resume": "test",
@@ -58,7 +58,7 @@
     {
         "id": 6,
         "title": "MLT : Modèle Logique des Traitements",
-        "image": "#",
+        "image": "./assets/media/MeriseMLT.png",
         "important": true,
         "type": "merise",
         "resume": "Le MLT est une représentation intermédiaire entre le modèle conceptuel et le modèle physique de traitement",
@@ -67,7 +67,7 @@
     {
         "id": 7,
         "title": "MPT : Modele Physique de traitements",
-        "image": "#",
+        "image": "./assets/media/MeriseMOpT.png",
         "important": true,
         "type": "merise",
         "resume": "Le MPT est une représentation détaillée et spécifique des processus, des opérations et des flux de données. ",
