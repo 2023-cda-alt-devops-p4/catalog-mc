@@ -24,10 +24,10 @@ import Data from '../data.json'
 
 <template>
 
-    <div class="content">
+    <div class="content" >
         <div class="row">
             <div class="card-item" v-for="diagram in diagramList" :key="diagram.id">
-                <div @click="goToModal(diagram)" class="custom-card">
+                <div @click="goToModal(diagram)" class="custom-card" :class="{ 'important': diagram.important }">
                     <div class="custom-card-image">
                         <img :src="diagram.image" :alt="diagram.title">
                     </div>
@@ -58,7 +58,9 @@ import Data from '../data.json'
 </template>
 
 <style scoped>
-
+.important {
+    color: rgb(223, 156, 181);
+}
 .content {
         display: flex;
         flex-direction: column;
