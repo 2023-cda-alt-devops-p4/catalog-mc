@@ -76,7 +76,7 @@
     {
         "id": 8,
         "title": "MCC : Modèle conceptuel de communication ",
-        "image": "#",
+        "image": "./assets/media/MeriseMCC.jpg",
         "important": false,
         "type": "merise",
         "resume": "Une représentation abstraite des éléments, des interactions et des flux d'information au sein d'un système de communication ou d'échange d'informations. ",
@@ -85,7 +85,7 @@
     {
         "id": 9,
         "title": "MOC : Modele organisationnel de communication",
-        "image": "#",
+        "image": "./assets/media/MeriseMOC.jpg",
         "important": false,
         "type": "merise",
         "resume": "Une représentation structurée des processus, des acteurs et des flux d'information au sein d'une organisation ou d'un système complexe.",
@@ -94,7 +94,7 @@
     {
         "id": 10,
         "title": "MLC : Modele logique de Communication ",
-        "image": "#",
+        "image": "./assets/media/MeriseMLC.jpg",
         "important": false,
         "type": "merise",
         "resume": "Une représentation intermédiaire entre le modèle conceptuel et le modèle physique de communication.",
@@ -103,7 +103,7 @@
     {
         "id": 11,
         "title": "MPC : Modele physique de Communication ",
-        "image": "#",
+        "image": "./assets/media/MeriseMPC.jpg",
         "important": true,
         "type": "merise",
         "resume": "Une représentation détaillée et spécifique des composants matériels, des protocoles, et de l'infrastructure nécessaire à la transmission et à la réception des données dans un système de communication.",
