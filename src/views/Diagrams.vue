@@ -19,6 +19,8 @@ import umlData from '../data/uml.json'
         diagramList.value = [...meriseData, ...umlData];
         console.log(meriseData);
     });
+
+    /*Les images ne s'affichent pas*/
 </script>
 
 <template>
@@ -47,7 +49,10 @@ import umlData from '../data/uml.json'
 </template>
 
 <style>
-
+/* le grid ne fonctionne pas comme j'aimerai, aussi il faut ajouter un contener global car la c'est vraiment tres moche
+c'est pas responsive 
+BONUS: Ajouter une bar de recherche si il y a le temps 
+*/
     .content {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
