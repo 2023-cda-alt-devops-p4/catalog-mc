@@ -17,7 +17,7 @@ import umlData from '../data/uml.json'
 
     onMounted(() => {
         diagramList.value = [...meriseData, ...umlData];
-        console.log(meriseData);
+       
     });
 
     /*Les images ne s'affichent pas*/
@@ -49,7 +49,7 @@ import umlData from '../data/uml.json'
 </template>
 
 <style scoped>
-/* le grid ne fonctionne pas comme j'aimerai, aussi il faut ajouter un contener global car la c'est vraiment tres moche
+/* 
 c'est pas responsive 
 BONUS: Ajouter une bar de recherche si il y a le temps 
 */
