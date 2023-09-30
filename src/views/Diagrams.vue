@@ -29,7 +29,7 @@ import umlData from '../data/uml.json'
             <div class="card-item" v-for="diagram in diagramList" :key="diagram.id">
                 <div @click="goToModal(diagram)" class="custom-card">
                     <div class="custom-card-image">
-                        <img :src="diagram.image" alt="Diagram Image">
+                        <img :src="diagram.image" :alt="diagram.title">
                     </div>
                     <div class="custom-card-content">
                         
