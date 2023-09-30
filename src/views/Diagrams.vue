@@ -2,8 +2,8 @@
 import { ref, onMounted } from 'vue';
 import IDiagram from '../interface/IDiagram'
 import Modal from '../component/modal/Modal.vue'
-import meriseData from '../data/merise.json'
-import umlData from '../data/uml.json'
+import Data from '../data.json'
+
 
 
     const diagramList = ref<IDiagram[]>([])
@@ -16,7 +16,7 @@ import umlData from '../data/uml.json'
     }
 
     onMounted(() => {
-        diagramList.value = [...meriseData, ...umlData];
+        diagramList.value = [...Data];
 
     });
 
