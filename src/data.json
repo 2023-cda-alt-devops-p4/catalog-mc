@@ -4,7 +4,7 @@
     {
         "id": 0,
         "title": "MCD: Modele conceptuel de données",
-        "image": "./assets/media/MeriseMCD.png",
+        "image": "src/assets/media/MeriseMCD.PNG",
         "important": true,
         "type": "merise",
         "resume": "Focalisé sur les besoins, relations et logique; base pour MLD.",
@@ -13,7 +13,7 @@
     {
         "id": 1,
         "title": "MLD : Modèle logique des données ",
-        "image": "./assets/media/MeriseMLD.png",
+        "image": "src/assets/media/MeriseMLD.PNG",
         "important": true,
         "type": "merise",
         "resume": "Base pour la création et la gestionde la BDD, en précisant comment les données doivent être structurées",
@@ -31,7 +31,7 @@
     {
         "id": 3,
         "title": "MPD: Modele physique de donnees",
-        "image": "./assets/media/MeriseMPD.webp",
+        "image": "src/assets/media/MeriseMPD.webp",
         "important": true,
         "type": "merise",
         "resume": "Une représentation concrète et technique des données",
@@ -40,7 +40,7 @@
     {
         "id": 4,
         "title": "MCT : Modèle conceptuel des traitements",
-        "image": "./assets/media/MeriseMCT.png",
+        "image": "src/assets/media/MeriseMCT.png",
         "important": true,
         "type": "merise",
         "resume": "Le MCT est une représentation abstraite des processus, des opérations et des flux d'informations.",
@@ -49,7 +49,7 @@
     {
         "id": 5,
         "title": "MOT: Modèle organisationnel des traitements",
-        "image": "./assets/media/MeriseMOpT.png",
+        "image": "src/assets/media/MeriseMOpT.png",
         "important": false,
         "type": "merise",
         "resume": "test",
@@ -58,7 +58,7 @@
     {
         "id": 6,
         "title": "MLT : Modèle Logique des Traitements",
-        "image": "./assets/media/MeriseMLT.png",
+        "image": "src/assets/media/MeriseMLT.png",
         "important": true,
         "type": "merise",
         "resume": "Le MLT est une représentation intermédiaire entre le modèle conceptuel et le modèle physique de traitement",
@@ -67,7 +67,7 @@
     {
         "id": 7,
         "title": "MPT : Modele Physique de traitements",
-        "image": "./assets/media/MeriseMOpT.png",
+        "image": "src/assets/media/MeriseMOpT.png",
         "important": true,
         "type": "merise",
         "resume": "Le MPT est une représentation détaillée et spécifique des processus, des opérations et des flux de données. ",
@@ -76,7 +76,7 @@
     {
         "id": 8,
         "title": "MCC : Modèle conceptuel de communication ",
-        "image": "./assets/media/MeriseMCC.jpg",
+        "image": "src/assets/media/MeriseMCC.jpg",
         "important": false,
         "type": "merise",
         "resume": "Une représentation abstraite des éléments, des interactions et des flux d'information au sein d'un système de communication ou d'échange d'informations. ",
@@ -85,7 +85,7 @@
     {
         "id": 9,
         "title": "MOC : Modele organisationnel de communication",
-        "image": "./assets/media/MeriseMOC.jpg",
+        "image": "src/assets/media/MeriseMOC.jpg",
         "important": false,
         "type": "merise",
         "resume": "Une représentation structurée des processus, des acteurs et des flux d'information au sein d'une organisation ou d'un système complexe.",
@@ -94,7 +94,7 @@
     {
         "id": 10,
         "title": "MLC : Modele logique de Communication ",
-        "image": "./assets/media/MeriseMLC.jpg",
+        "image": "src/assets/media/MeriseMLC.jpg",
         "important": false,
         "type": "merise",
         "resume": "Une représentation intermédiaire entre le modèle conceptuel et le modèle physique de communication.",
@@ -103,7 +103,7 @@
     {
         "id": 11,
         "title": "MPC : Modele physique de Communication ",
-        "image": "./assets/media/MeriseMPC.jpg",
+        "image": "src/assets/media/MeriseMPC.jpg",
         "important": true,
         "type": "merise",
         "resume": "Une représentation détaillée et spécifique des composants matériels, des protocoles, et de l'infrastructure nécessaire à la transmission et à la réception des données dans un système de communication.",
@@ -113,7 +113,7 @@
     {
         "id": 12,
         "title": "Diagramme de cas d'utilisation (Use Case Diagram)",
-        "image": "#",
+        "image": "src/assets/media/UMLdiagram-usecase.PNG",
         "important": true,
         "type": "uml",
         "resume": "Montre les interactions entre les utilisateurs et les cas d'utilisation d'un système.",
