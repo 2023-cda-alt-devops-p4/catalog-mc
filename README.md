@@ -11,12 +11,12 @@ We must highlight the most important diagrams, making sure the website is respon
 You must create your "catalog" with:
 
 ✔️ A homepage  
-❌ UML diagrams  
+✔️ UML diagrams  
 ✔️ Merise diagrams  
-❌ the main navigation  
+✔️ the main navigation  
 ​
 
-❌ Highlight the "essential diagrams."  
+✔️ Highlight the "essential diagrams."  
 
 ### Design
 
