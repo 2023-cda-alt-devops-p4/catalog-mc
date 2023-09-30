@@ -59,13 +59,34 @@ import umlData from '../data/uml.json'
 
 <style scoped>
 
-    .content {
-        
+.content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 1200px;
+        width: 100%;
     }
 
+    .card-item {
+        flex: 0 0 calc(33.33% - 20px);
+        margin: 10px;
+        min-width: 300px;
+        flex-basis: calc(33.33% - 20px);
+        box-sizing: border-box;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.2s;
+    }
+    .card-item:hover {
+        box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.2);
+    }
     .custom-card {
         display: flex;
-        border: 1px solid #ccc;
         margin: 10px;
         cursor: pointer;
         transition: transform 0.2s;
@@ -75,11 +96,6 @@ import umlData from '../data/uml.json'
 
     .custom-card:hover {
         transform: scale(1.05);
-    }
-
-    .card-item {
-        display: flex;
-        padding: 1rem;
     }
 
     .custom-card-image {
