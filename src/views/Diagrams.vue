@@ -2,8 +2,8 @@
 import { ref, onMounted } from 'vue';
 import IDiagram from '../interface/IDiagram'
 import Modal from '../component/modal/Modal.vue'
-import meriseData from '../data/merise.json'
-import umlData from '../data/uml.json'
+import Data from '../data.json'
+
 
 
     const diagramList = ref<IDiagram[]>([])
@@ -16,7 +16,7 @@ import umlData from '../data/uml.json'
     }
 
     onMounted(() => {
-        diagramList.value = [...meriseData, ...umlData];
+        diagramList.value = [...Data];
 
     });
 
@@ -24,10 +24,10 @@ import umlData from '../data/uml.json'
 
 <template>
 
-    <div class="content">
+    <div class="content" >
         <div class="row">
             <div class="card-item" v-for="diagram in diagramList" :key="diagram.id">
-                <div @click="goToModal(diagram)" class="custom-card">
+                <div @click="goToModal(diagram)" class="custom-card" :class="{ 'important': diagram.important }">
                     <div class="custom-card-image">
                         <img :src="diagram.image" :alt="diagram.title">
                     </div>
@@ -58,7 +58,9 @@ import umlData from '../data/uml.json'
 </template>
 
 <style scoped>
-
+.important {
+    color: rgb(223, 156, 181);
+}
 .content {
         display: flex;
         flex-direction: column;
