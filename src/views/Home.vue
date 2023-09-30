@@ -6,25 +6,8 @@
 
 <template>
     <div class="content">
-        <header>
-            
-       
-        <h1>Diagram Universe</h1>
-    </header>
-
-    <main>
-        <!--Liste de diagrams-->
-    </main>
-
-    <footer>
-        <div class="footer">
-            @2023 DiagramUniverse
-            <ul>
-                <li>Mentions Legales</li>
-                <li>Politique de confidentialité</li>
-            </ul>
-        </div>
-    </footer>
+        
+    
     </div>
     
 </template>

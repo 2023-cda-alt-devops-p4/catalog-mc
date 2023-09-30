@@ -12,7 +12,7 @@ const diagram = Diagrams;
 </script>
 
 <template>
-    <div>
+    <div class="contener">
 
         <Navbar
         :navLinks="[
@@ -55,4 +55,8 @@ const diagram = Diagrams;
 
 
 <style scooped>
+
+    .content{
+        margin: auto;
+    }
 </style>

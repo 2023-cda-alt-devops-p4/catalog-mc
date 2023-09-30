@@ -5,49 +5,59 @@
 For our first assignment for the CDA training with Simplon, we need to build a website that showcases all the UML and Merise diagrams.
 We must highlight the most important diagrams, making sure the website is responsive.
 
-## Brief
-
-
-une ressource centralisée avec une vision d'ensemble de tous les diagrammes UML et de tous ceux qui appartiennent à la méthode MERISE. 
-
-Il me faut une méthode à suivre pour chacun de ces schémas, surtout pour les plus importants que j'aurai à créer très vite.
-
-ce support doit être consultable en ligne aussi bien sur mobile que sur PC et tablette.
 
 ### Structure
 
-Vous devez produire votre "catalogue" avec :
+You must create your "catalog" with:
 
-une page d'accueil
-les diagrammes UML
-les diagrammes Merise
-la navigation principale
+✔️ A homepage  
+❌ UML diagrams  
+✔️ Merise diagrams  
+❌ the main navigation  
 ​
 
-Mettez en évidence les "diagrammes indispensables".
+❌ Highlight the "essential diagrams."  
 
-### Conception
+### Design
 
-Vous devez :
+You should:
 
-avoir une version optimisée pour mobile en adoptant le concept Mobile First
-faire usage des media queries pour la version tablette et pc
-ajouter des animations, des popup, une version contrastée, etc. en vous aidant du CSS / JavaScript
-le mettre en ligne sur un service de déploiement au push, comme GitHub Pages / Netlify / Vercel
+❌ Adopting the Mobile First concept  
+❌ Use media queries for tablet and PC versions  
+✔️ Add animations, pop-ups, etc., using CSS/JavaScript  
+❌ Deploy it on a push deployment service like GitHub Pages/Netlify/Vercel  
 ​
 
-### Livrables
+### Deliverables
 
-- une archive ZIP de votre projet
-- un lien vers un dépôt GitHub comprenant le code source
-- un lien vers votre nouveau catalogue en ligne
+✔️  A ZIP archive of your project  
+✔️  A link to a GitHub repository 
+❌  A link to your new online catalog  
 
-### Critères de performance
+### Performance Criteria
 
-- Le projet doit être versionné régulièrement et de manière atomique (Plusieurs "commit" par jour pendant toute la durée du projet)
-- Le site web doit être en conformité avec les standards W3C
-- Le site web est fonctionnel (le maillage interne n'a pas de lien mort) 
-- Le site web est adaptable
-- Le site web est performant (bon résultat sur PageSpeed Insights)
-- Le site web doit être en ligne, et redéployé au push (Github Pages, Netlify, Vercel...)
-- Les bonnes principes de structuration sont respectées, y compris pour le web mobile
+✔️  The project must be regularly versioned atomically  
+❌  The website must comply with W3C standards  
+❌  The website has no dead links   
+❌  The website is adaptable  
+❌  The website has good result on PageSpeed Insights  
+❌  The website must be online (GitHub Pages, Netlify, Vercel...)  
+❌  Good structuring principles are respected, including for mobile web  
+
+
+## Stacks 
+
+![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
+![Html5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Css3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Json](https://img.shields.io/badge/Json-%23FF9900.svg?style=for-the-badge&logo=Json&logoColor=white)
+
+
+
+
+*Why did the developer break up with the database? Because they couldn't find a connection!*
+
+
+
+![Thanks](src/assets/thanksforreading.png)

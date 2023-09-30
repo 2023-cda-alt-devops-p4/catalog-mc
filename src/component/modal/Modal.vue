@@ -5,7 +5,6 @@
         isVisible: boolean
     }>();
     
-
     const goToDiagramList = () => {
     $router.push('/Diagrams');
     };
@@ -18,7 +17,10 @@
 <template>
     <div v-if="isVisible" class="modal-global-container">
         <div class="modal-container">
-            
+            <!--
+                Mettre à jour les interpolation + afficher sur la modal la carte sur laquelle on vient de clické
+                
+            -->
             <div class="diagram-card">
                 <h2 class="header center"> {{ "diagram.title" }}</h2> <!--Titre du diagram selectionné-->
                 <div class="card-img">
@@ -43,6 +45,9 @@
                     
                 </div>
                 <div class="card-action">
+                    <!--
+                        Retour ne fonctionne pas
+                    -->
                     <a @click="goToDiagramList">Retour</a>
                 </div>
             </div>
@@ -56,6 +61,8 @@
 </template>
 
 <style lang="scss" scoped>
+
+/* Design absolument infame*/ 
     .modal-global-container {
         position: fixed;
         top: 0;

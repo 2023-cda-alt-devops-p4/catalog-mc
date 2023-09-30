@@ -12,7 +12,8 @@
             <ul class="nav-links">
                 <li><a  href="#"> Home </a></li>
                 <li><a href="#"> Diagrammes </a></li>
-                <li><a href="#"> About </a></li><!-- quand on met : c'est pour mettre du code entre ""-->
+                <li><a href="#"> About </a></li><!-- quand on met : c'est pour mettre du code entre ""
+                changer les liens-->
             </ul>
 
             <div id="burger">
@@ -30,7 +31,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #f7f3f6;
+    background: #ffffff;
 	height: 100px;
 	width: 100%;
     min-height: 8vh;
@@ -38,7 +39,7 @@
 }
 
 nav {
-    background-color: #fefefe;
+    background-color: #ffffff;
     border : 3.5px solid #070707;
     padding: 0.2em 50px;
 }
@@ -64,7 +65,7 @@ li{
 li :hover{
     padding: 1rem;
     background-color: #070707;
-    color: #fefefe;
+    color: #ffffff;
 }
 
 </style>
